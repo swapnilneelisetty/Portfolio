@@ -39,8 +39,8 @@ File , Purpose
 | CO2 | Static webpage development using HTML5 |
 | CO3 | Interactive and visually appealing UI using CSS3 |
 
-## Author
+## madeby
 
-**Neelisetty Hansik Swapnil**
-B.Tech CSE Core — Semester 2
-Amrita Vishwa Vidyapeetham
+**Neelisetty Hansik Swapnil**  
+B.Tech CSE Core — Semester 2  
+Amrita Vishwa Vidyapeetham  
