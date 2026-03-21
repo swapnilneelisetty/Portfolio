@@ -3,191 +3,158 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:opsz,wght@9..40,400&family=DM+Mono:wght@400&display=swap" rel="stylesheet" />
+  <title>Neelisetty Hansik Swapnil — Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <nav id="nav">
-    <div class="nav-wrap">
-      <a href="#home" class="nav-logo">My Portfolio</a>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+  <div id="nav">
+    <span class="logo">My Portfolio</span>
+    <div class="links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div style="clear:both;"></div>
+  </div>
+
+  <div id="hero">
+    <p class="lbl">Hello, I am</p>
+    <h1>Neelisetty<br>Hansik Swapnil</h1>
+    <p class="sub">B.Tech CSE Core &mdash; Semester 2<br>Amrita Vishwa Vidyapeetham &middot; 23CSE113</p>
+    <div class="btns">
+      <a href="#projects" class="btn btn-s">View Projects</a>
+      <a href="#contact" class="btn btn-o">Get in Touch</a>
+    </div>
+  </div>
+
+  <div id="about" class="sec">
+    <p class="sec-lbl">About Me</p>
+    <hr>
+    <div class="two">
+      <div class="l">
+        <p>Hi! I am from <strong>Guntur, Andhra Pradesh</strong>. I am a B.Tech CSE Core Semester 2 student at <strong>Amrita Vishwa Vidyapeetham</strong>.</p>
+        <p>I am a beginner-level coder working with HTML, CSS, Java and Python.</p>
+      </div>
+      <div class="r">
+        <div class="card">
+          <p class="chip">Currently Learning</p>
+          <ul>
+            <li><span class="tag">HTML5</span> Semantic markup &amp; forms</li>
+            <li><span class="tag">CSS3</span> Box model, selectors &amp; layout</li>
+            <li><span class="tag">Java</span> OOP — inheritance &amp; polymorphism</li>
+            <li><span class="tag">Python</span> Data structures &amp; searching</li>
+          </ul>
+        </div>
+      </div>
+      <div style="clear:both;"></div>
+    </div>
+  </div>
+
+  <div id="skills" class="sec alt">
+    <div class="inner">
+      <p class="sec-lbl">Skills</p>
+      <h2>What I Work With</h2>
+      <hr>
+      <table>
+        <tr><th>Technology</th><th>Category</th><th>Topics Covered</th></tr>
+        <tr><td><strong>HTML5</strong></td><td>Markup</td><td>Tags, forms, tables, links, images, lists</td></tr>
+        <tr><td><strong>CSS3</strong></td><td>Styling</td><td>Selectors, box model, margins, padding, float</td></tr>
+        <tr><td><strong>Java</strong></td><td>Programming</td><td>OOP — inheritance, polymorphism, encapsulation</td></tr>
+        <tr><td><strong>Python</strong></td><td>Programming</td><td>Lists, searching, problem-solving</td></tr>
+      </table>
+      <div class="scards">
+        <div class="sc"><p class="ico">&lt;/&gt;</p><h3>HTML5</h3><p>Semantic structure, forms, tables, hyperlinks and images.</p></div>
+        <div class="sc"><p class="ico">{ }</p><h3>CSS3</h3><p>Box model, selectors, margins, padding and responsive design.</p></div>
+        <div class="sc"><p class="ico">OOP</p><h3>Java</h3><p>Inheritance, polymorphism, encapsulation and basic applications.</p></div>
+        <div class="sc"><p class="ico">.py</p><h3>Python</h3><p>Problem solving, data structures and searching algorithms.</p></div>
+        <div style="clear:both;"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="projects" class="sec">
+    <p class="sec-lbl">Projects</p>
+    <h2>Things I Have Built</h2>
+    <hr>
+    <div class="pf">
+      <p><span class="pnum">01</span><span class="ptag">Featured &middot; HTML &amp; CSS</span></p>
+      <h3>Portfolio Website</h3>
+      <p>A responsive personal portfolio built with HTML5 and CSS3. Includes internal stylesheets, float-based layouts, box model and media queries.</p>
+      <ul class="tl">
+        <li>HTML5 — semantic tags, forms, tables</li>
+        <li>CSS3 — box model, selectors, float layout</li>
+        <li>Responsive design using media queries</li>
       </ul>
+      <br>
+      <a href="https://github.com/swapnilneelisetty" target="_blank" class="btn btn-o">GitHub &#8599;</a>
     </div>
-  </nav>
+    <div class="two">
+      <div class="pc">
+        <p><span class="pnum">02</span><span class="ptag">Group Project</span></p>
+        <h3>Online Delivery Management System</h3>
+        <p>Group-built delivery management system using HTML tables, forms and CSS styling.</p>
+        <p><strong>Tech:</strong> HTML5 &middot; CSS3 &middot; Tables &middot; Forms</p>
+        <a href="https://github.com/swapnilneelisetty" target="_blank" class="btn btn-o btn-sm">GitHub &#8599;</a>
+      </div>
+      <div class="pc">
+        <p><span class="pnum">03</span><span class="ptag">Assignment</span></p>
+        <h3>HTML Table &amp; Form Practice</h3>
+        <p>A structured table with ordered lists, unordered lists, hyperlinks and images inside cells.</p>
+        <p><strong>Tech:</strong> HTML5 &middot; CSS3 &middot; Colspan &middot; Rowspan</p>
+        <a href="#" class="btn btn-o btn-sm">Code &#8599;</a>
+      </div>
+      <div style="clear:both;"></div>
+    </div>
+  </div>
 
-  <section id="home" class="hero">
-    <div class="hero-inner">
-      <h1 class="hero-title">
-        <span class="greeting">Hello, I'm</span>
-        <span class="name">NEELISETTY HANSIK SWAPNIL</span>
-      </h1>
-      <p class="hero-sub">
-        B.Tech CSE Core, Semester 2 &mdash; Amrita Vishwa Vidyapeetham<br />
-        <span class="mono">23CSE113 &middot; User Interface Design</span>
-      </p>
-      <div class="hero-btns">
-        <a href="#projects" class="btn btn-primary">View Projects</a>
-        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+  <div id="contact" class="sec alt">
+    <div class="inner">
+      <p class="sec-lbl">Contact</p>
+      <h2>Let's Connect</h2>
+      <hr>
+      <div class="two">
+        <div class="l">
+          <p>Whether you want to collaborate, have a project idea or just want to say hi — feel free to reach out.</p>
+          <ul class="cl">
+            <li><strong>&#9993; Email</strong><a href="https://outlook.cloud.microsoft/mail/">swapnil@example.com</a></li>
+            <li><strong>&#8982; GitHub</strong><a href="https://github.com/swapnilneelisetty" target="_blank">github.com/swapnilneelisetty</a></li>
+            <li><strong>in LinkedIn</strong><a href="https://www.linkedin.com/in/swapnil-snehal-5876233ab/" target="_blank">linkedin.com/in/swapnil-snehal</a></li>
+          </ul>
+        </div>
+        <div class="r">
+          <form action="success.html" method="get">
+            <div class="fg"><label for="fn">Name</label><input type="text" id="fn" name="name" placeholder="Your full name" /></div>
+            <div class="fg"><label for="fe">Email</label><input type="email" id="fe" name="email" placeholder="yourname@example.com" /></div>
+            <div class="fg">
+              <label for="fs">Subject</label>
+              <select id="fs" name="subject">
+                <option value="">Select a topic</option>
+                <option value="collab">Collaboration</option>
+                <option value="project">Project Inquiry</option>
+                <option value="feedback">Feedback</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="fg"><label for="fm">Message</label><textarea id="fm" name="message" rows="4" placeholder="Write your message here..."></textarea></div>
+            <input type="submit" value="Send Message" class="btn btn-s btn-full" />
+          </form>
+        </div>
+        <div style="clear:both;"></div>
       </div>
     </div>
-  </section>
+  </div>
 
-  <section id="about" class="section about">
-    <div class="container">
-      <div class="label">About</div>
-      <div class="about-grid">
-        <div class="about-text">
-          <p>Hi! I'm from Guntur, Andhra Pradesh. I'm a B.Tech CSE Core Sem 2 student at Amrita Vishwa Vidyapeetham and a beginner-level coder working with <strong>HTML5</strong>, <strong>CSS</strong>, and <strong>Java</strong>.</p>
-          
-        </div>
-        <div>
-          <div class="info-card">
-            <div class="chip">Currently Learning</div>
-            <ul class="learn-list">
-              <li><span class="tag">HTML5</span> Semantic markup &amp; forms</li>
-              <li><span class="tag">CSS</span> Tags &amp; design</li>
-              <li><span class="tag">Java</span> OOP concepts</li>
-              <li><span class="tag">Python</span> Lists &amp; searching</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+  <div id="footer">
+    <p class="logo">Neelisetty Hansik Swapnil</p>
+    <div class="flinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
     </div>
-  </section>
-
-  <section id="skills" class="section skills">
-    <div class="container">
-      <div class="label">Skills</div>
-      <h2 class="section-title">What I work with</h2>
-      <div class="skills-grid">
-        <div class="skill-card">
-          <div class="sk-icon">&lt;/&gt;</div>
-          <h3>HTML5</h3>
-          <p>Semantic structure, forms, tables, hyperlinks, and images.</p>
-        </div>
-        <div class="skill-card">
-          <div class="sk-icon">{ }</div>
-          <h3>CSS</h3>
-          <p>Box model, selectors, animations, and responsive queries.</p>
-        </div>
-        <div class="skill-card">
-          <div class="sk-icon">oop</div>
-          <h3>Java</h3>
-          <p>Inheritance, polymorphism, encapsulation, and basic apps.</p>
-        </div>
-        <div class="skill-card">
-          <div class="sk-icon">.py</div>
-          <h3>Python</h3>
-          <p>Problem-solving, data structures, and efficient programs.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="projects" class="section projects">
-    <div class="container">
-      <div class="label">Projects</div>
-      <h2 class="section-title">Things I Have built</h2>
-      <div class="projects-grid">
-        <article class="project-card featured">
-          <div class="p-num">01</div>
-          <div class="p-tag">Featured &middot; HTML &amp; CSS</div>
-          <h3>Portfolio Website</h3>
-          <p>A responsive personal portfolio with semantic HTML5, CSS animations, media queries, and an internal stylesheet — fulfilling all UI Design course requirements.</p>
-          <div class="p-tech">
-            <span>HTML5</span><span>CSS3</span><span>Responsive</span><span>Animations</span>
-          </div>
-          <div class="p-links">
-            <a href="#" class="btn btn-sm btn-primary">Live Demo &rarr;</a>
-            <a href="https://github.com/swapnilneelisetty" target="_blank" class="btn btn-sm btn-dim">GitHub &#8599;</a>
-          </div>
-        </article>
-        <article class="project-card">
-          <div class="p-num">02</div>
-          <div class="p-tag">Group Project</div>
-          <h3>Online Delivery Management System</h3>
-          <p>Contributed to design, development, and implementation of key features in a group-built delivery management system.</p>
-          <div class="p-tech">
-            <span>HTML5</span><span>CSS3</span><span>Tables</span>
-          </div>
-          <div class="p-links">
-            <a href="#" class="btn btn-sm btn-primary">Live Demo &rarr;</a>
-            <a href="https://github.com/swapnilneelisetty" target="_blank" class="btn btn-sm btn-dim">GitHub &#8599;</a>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section id="contact" class="section contact">
-    <div class="container">
-      <div class="label">Contact</div>
-      <h2 class="section-title">Let's connect</h2>
-      <div class="contact-grid">
-        <div>
-          <p class="contact-desc">Whether you want to collaborate, have a project idea, or just want to say hi — my inbox is always open.</p>
-          <div class="c-links">
-            <a href="https://outlook.cloud.microsoft/mail/" class="c-item">
-              <span class="c-icon">&#9993;</span>
-              <span>Email</span>
-            </a>
-            <a href="https://github.com/swapnilneelisetty" target="_blank" class="c-item">
-              <span class="c-icon">&#8982;</span>
-              <span>GitHub</span>
-            </a>
-            <a href="https://www.linkedin.com/feed/" target="_blank" class="c-item">
-              <span class="c-icon">in</span>
-              <span>LinkedIn</span>
-            </a>
-          </div>
-        </div>
-        <form class="c-form" action="#" method="post">
-          <div class="form-group">
-            <label for="fname">Name</label>
-            <input type="text" id="fname" name="name" placeholder="Your full name" required />
-          </div>
-          <div class="form-group">
-            <label for="femail">Email</label>
-            <input type="email" id="femail" name="email" placeholder="yourname@example.com" required />
-          </div>
-          <div class="form-group">
-            <label for="fsubject">Subject</label>
-            <select id="fsubject" name="subject">
-              <option value="">Select a topic</option>
-              <option value="collab">Collaboration</option>
-              <option value="project">Project Inquiry</option>
-              <option value="feedback">Feedback</option>
-              <option value="other">Other</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="fmsg">Message</label>
-            <textarea id="fmsg" name="message" rows="4" placeholder="Write your message here..." required></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary full">Send Message &rarr;</button>
-        </form>
-      </div>
-    </div>
-  </section>
-
-  <footer>
-    <div class="footer-inner">
-      <div class="f-logo">My Portfolio</div>
-      <nav class="f-links">
-        <a href="#about">About Me</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact Me</a>
-      </nav>
-      <p class="f-copy">&copy; 2026 &middot; Built with HTML5 &amp; CSS3</p>
-    </div>
-  </footer>
+  </div>
 
 </body>
 </html>
